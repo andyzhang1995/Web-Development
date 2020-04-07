@@ -1,0 +1,60 @@
+/* PROBLEM 1: Remove white margin of body, html */
+/* YOUR CODE HERE */
+
+body{
+  margin:0;
+}
+html{ /* unsure why this is neccary */
+  margin:0;
+}
+
+/* PROBLEM 2: Select profile picture and make it round */
+/* YOUR CODE HERE */
+
+#profile-pic { /* note: not editting the picture to be a cicle but to force the image container to be a circle then clip (not showing the outside image off the container) */
+
+  border-radius: 50%; /* makes the container, which the image is embbed in, a circle */
+  overflow: hidden; /* the image clips to the border. Anything outside the border will be clipped */
+
+}
+
+#follow-button {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.item{
+  width: 120px;
+  height: 120px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.item:hover{
+  opacity: 1;
+  transition-duration: 0.2;
+}
+
+.row{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar-item{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar-item:hover{
+  opacity:1;
+}
+
+#follow-button:active{  /* active is used on links and buttons when you clock on them. In this case while you click on the button, the fond size will change to 18px */
+  font-size:18px;
+}
+
+.navbar-item, .item, #follow-button{
+  cursor: pointer;
+}

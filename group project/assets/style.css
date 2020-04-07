@@ -1,0 +1,152 @@
+body{
+  margin:0;
+  padding: 0;
+  width:100vw;
+  height:100vh;
+  background-color:#F58881;
+}
+
+.content-container{
+  display:flex;
+  flex-direction:column;
+}
+
+/* shared beteen about and contact */
+.header-container {
+  width: 100vw;
+  height: 8vh;
+  background-color: black;
+}
+
+.header-text{
+  color:white;
+  margin:0;
+  padding:0;
+}
+
+.company-container{
+
+  display: flex;
+  flex-direction:row;
+  width:100vw;
+  height: 100vh;
+
+}
+
+.company-story{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+  float: left;
+  position: relative;
+  transform: translateY(-10%);
+}
+
+.story-title{
+  font-size: 45px;
+}
+
+.story-content{
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+}
+
+/* .donut-image {
+  position: absolute;
+} */
+
+.donut-image img{
+  width: 50vw;
+  height: auto;
+  float: right;
+}
+
+
+/* specifc to contact page */
+
+.contact-content{
+  background-color: #FCBCB8;
+  /* margin:0;
+  padding:0; */
+  width: 100vw;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+
+.top{
+  width:100vw;
+  height:80vh;
+  display: flex;
+
+}
+
+.bottom{
+  width:100vw;
+  height:8vh;
+}
+
+
+.left-side{
+  width: 60vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.right-side{
+  width:40vw;
+}
+
+.order-screen {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  position:relative;
+  /* top:-14%; */
+}
+
+.order-box{
+  position: relative;
+  transform: translateX(-11%);
+}
+
+.tagline{
+  font-size: 200%;
+  width: 60%;
+}
+
+/* .images{
+  position: relative;
+} */
+
+#img1 {
+  width: 60%;
+  position: relative;
+  /* top: 40vh; */
+  transform: translate(-55%, 110%);
+}
+
+#img2 {
+  width: 75%;
+  position: relative;
+  /* top: -25vh;
+  left: 1vw; */
+  transform: translate(-10%,-60%);
+  /* transform: translateX(-50%); */
+}
+
+/* .location img{
+  width: 20%;
+  height: 20%;
+} */
+
+.location{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+
+}
